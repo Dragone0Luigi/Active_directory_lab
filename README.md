@@ -17,7 +17,8 @@ Configurazione iniziale dell'ambiente server, impostazione della rete e promozio
 
 |       Step 1: Lingua e Regione        |    Step 2: Inserimento Product Key    |
 | :-----------------------------------: | :-----------------------------------: |
-| ![Setup 1](server/Setup_server_1.png) | ![Setup 2](server/Setup_server_2.png) |
+| ![Setup 1]([server/Setup_server_1.png](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/Setup_server_1.png
+)) | ![Setup 2](server/Setup_server_2.png) |
 
 |      Step 3: Selezione OS (GUI)       |     Step 4: Partizionamento Disco     |
 | :-----------------------------------: | :-----------------------------------: |
