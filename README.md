@@ -1,3 +1,4 @@
+
 # 🏢 Active Directory Enterprise Home Lab
 
 ![Windows Server](https://img.shields.io/badge/Windows_Server-2022-0078D6?style=for-the-badge&logo=windows-server&logoColor=white)
@@ -15,14 +16,13 @@ Configurazione iniziale dell'ambiente server, impostazione della rete e promozio
 
 ### 1.1 Inizializzazione Server
 
-|       Step 1: Lingua e Regione        |    Step 2: Inserimento Product Key    |
-| :-----------------------------------: | :-----------------------------------: |
-| ![Setup 1]([server/Setup_server_1.png](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/Setup_server_1.png
-)) | ![Setup 2](server/Setup_server_2.png) |
+| Step 1: Lingua e Regione | Step 2: Inserimento Product Key |
+| :---------------------: | :-----------------------------: |
+| ![Setup 1](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/Setup_server_1.png) | ![Setup 2](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/Setup_server_2.png) |
 
-|      Step 3: Selezione OS (GUI)       |     Step 4: Partizionamento Disco     |
-| :-----------------------------------: | :-----------------------------------: |
-| ![Setup 3](server/Setup_server_3.png) | ![Setup 4](server/Setup_server_4.png) |
+| Step 3: Selezione OS (GUI) | Step 4: Partizionamento Disco |
+| :-----------------------: | :--------------------------: |
+| ![Setup 3](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/Setup_server_3.png) | ![Setup 4](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/Setup_server_4.png) |
 
 ### 1.2 Rete e Installazione Ruoli AD DS
 
@@ -30,9 +30,9 @@ Configurazione iniziale dell'ambiente server, impostazione della rete e promozio
 2. Aggiunta dei ruoli **Active Directory Domain Services** e **DNS Server**.
 3. Promozione del server con creazione della nuova foresta di dominio.
 
-|                    IP Statico & DNS                    |                  Installazione Ruoli                  |                   Dettaglio Funzionalità                    |                     Promozione Foresta                     |
-| :----------------------------------------------------: | :---------------------------------------------------: | :---------------------------------------------------------: | :--------------------------------------------------------: |
-| ![IP Statico](server/configurazione_ip_dns_server.png) | ![Ruoli AD DS](server/installazione_ruoli_ad_dns.png) | ![Dettagli AD DS](server/dettaglio_funzionalita_ad_dns.png) | ![Creazione Foresta](server/creazione_foresta_dominio.png) |
+| IP Statico & DNS | Installazione Ruoli | Dettaglio Funzionalità | Promozione Foresta |
+| :--------------: | :----------------: | :-------------------: | :----------------: |
+| ![IP Statico](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/configurazione_ip_dns_server.png.png) | ![Ruoli AD DS](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/installazione_ruoli_ad_dns.png.png) | ![Dettagli AD DS](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/dettaglio_funzionalita_ad_dns.png.png) | ![Creazione Foresta](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/creazione_foresta_dominio.png.png) |
 
 ---
 
@@ -45,18 +45,18 @@ Creazione dell'albero delle **Organizational Units (OU)** e implementazione del 
 - **OU Principale**: Strutturazione delle macro-aree aziendali.
 - **OU Dipartimentali**: Creazione della struttura specifica per il reparto IT.
 
-|                   Creazione OU Principale                    |                Creazione OU Reparto IT                |
-| :----------------------------------------------------------: | :---------------------------------------------------: |
-| ![Creazione OU AD](server/creazione_ou_active_directory.png) | ![Creazione OU IT](server/creazione_ou_repartoit.png) |
+| Creazione OU Principale | Creazione OU Reparto IT |
+| :---------------------: | :---------------------: |
+| ![Creazione OU AD](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/creazione_ou_active_directory.png.png) | ![Creazione OU IT](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/creazione_ou_repartoit.png.png) |
 
 ### 2.2 Utenti e Gruppi di Sicurezza
 
 - Creazione dell'utente responsabile/manager.
 - Popolamento dei gruppi **Backend** e **Frontend** per il controllo accessi granulare.
 
-|                      Utente Manager / Admin                      |                        Gruppo Backend                         |                         Gruppo Frontend                         |
-| :--------------------------------------------------------------: | :-----------------------------------------------------------: | :-------------------------------------------------------------: |
-| ![Utente Responsabile](server/creazione_utente_responsabile.png) | ![Gruppo Backend](server/creazione_gruppo_utente_backend.png) | ![Gruppo Frontend](server/creazione_gruppo_utente_frontend.png) |
+| Utente Manager / Admin | Gruppo Backend | Gruppo Frontend |
+| :-------------------: | :------------: | :-------------: |
+| ![Utente Responsabile](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/creazione_utente_responsabile.png.png) | ![Gruppo Backend](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/creazione_gruppo_utente_backend.png.png) | ![Gruppo Frontend](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/creazione_gruppo_utente_frontend.png.png) |
 
 ---
 
@@ -67,9 +67,9 @@ Applicazione e test delle **Group Policy Objects** a livello di Dominio/OU per g
 - **Windows Update GPO**: Automazione della gestione degli aggiornamenti.
 - **Firewall & RDP**: Configurazione centralizzata delle regole di Firewall e abilitazione del Remote Desktop.
 
-|                  GPO Windows Update                  |                 Verifica Applicazione GPO                  |                GPO Firewall & Remote Desktop                |
-| :--------------------------------------------------: | :--------------------------------------------------------: | :---------------------------------------------------------: |
-| ![GPO Windows Update](server/gpo_windows_update.png) | ![Verifica GPO WU](server/verifica_gpo_windows_update.png) | ![GPO Firewall RDP](server/gpo_firewall_remote_desktop.png) |
+| GPO Windows Update | Verifica Applicazione GPO | GPO Firewall & Remote Desktop |
+| :----------------: | :-----------------------: | :---------------------------: |
+| ![GPO Windows Update](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/gpo_windows_update.png.png) | ![Verifica GPO WU](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/verifica_gpo_windows_update.png.png) | ![GPO Firewall RDP](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/gpo_firewall_remote_desktop.png.png) |
 
 ---
 
@@ -80,9 +80,9 @@ Configurazione delle postazioni di lavoro client per la comunicazione con il Dom
 1. Configurazione del client e puntamento del DNS verso l'IP del Server DC.
 2. Esecuzione del **Domain Join** tramite credenziali amministrative/Lead.
 
-|            Preparation Client            |              Configurazione DNS Client              |               Join al Dominio (Account Lead)               |                Dominio Connesso                |
-| :--------------------------------------: | :-------------------------------------------------: | :--------------------------------------------------------: | :--------------------------------------------: |
-| ![Setup Client](client/setup_client.png) | ![DNS Client](client/configurazione_dns_client.png) | ![Join Lead Account](Client/join_dominio_account_lead.png) | ![Join Client](client/join_dominio_client.png) |
+| Preparation Client | Configurazione DNS Client | Join al Dominio (Account Lead) | Dominio Connesso |
+| :----------------: | :----------------------: | :----------------------------: | :--------------: |
+| ![Setup Client](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/client/setup_client.png.png) | ![DNS Client](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/client/configurazione_dns_client.png.png) | ![Join Lead Account](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/client/join_dominio_account_lead.png.png) | ![Join Client](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/client/join_dominio_client.png.png) |
 
 ---
 
@@ -92,15 +92,17 @@ Configurazione delle cartelle condivise di rete (Network Shares) con permessi **
 
 ### 5.1 Definizione Permessi di Condivisione
 
-|                 Permessi Cartella Backend                  |                  Permessi Cartella Frontend                  |                Permessi Cartella Lead                |
-| :--------------------------------------------------------: | :----------------------------------------------------------: | :--------------------------------------------------: |
-| ![Share Backend](server/permessi_condivisione_backend.png) | ![Share Frontend](server/permessi_condivisione_frontend.png) | ![Share Lead](server/permessi_condivisione_lead.png) |
+| Permessi Cartella Backend | Permessi Cartella Frontend | Permessi Cartella Lead |
+| :-----------------------: | :------------------------: | :--------------------: |
+| ![Share Backend](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/permessi_condivisione_backend.png.png) | ![Share Frontend](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/permessi_condivisione_frontend.png.png) | ![Share Lead](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/server/permessi_condivisione_lead.png.png) |
 
 ### 5.2 Verification & Security Testing
 
 Verifica dell'efficacia delle politiche di sicurezza provando l'accesso con diversi profili utente:
 
-|           Test Accesso Riuscito (Utente Autorizzato)           |                  Test Accesso Negato (Security Audit)                  |
-| :------------------------------------------------------------: | :--------------------------------------------------------------------: |
-| ![Accesso Riuscito](Client/accesso_riuscito_cartella_lead.png) |       ![Accesso Negato](Client/test_accesso_negato_permessi.png)       |
-|  _L'utente autorizzato del gruppo Lead accede alla cartella._  | _L'accesso viene bloccato dal sistema per gli utenti non autorizzati._ |
+| Test Accesso Riuscito (Utente Autorizzato) | Test Accesso Negato (Security Audit) |
+| :----------------------------------------: | :----------------------------------: |
+| ![Accesso Riuscito](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/client/accesso_riuscito_cartella_lead.png.png) | ![Accesso Negato](https://github.com/Dragone0Luigi/Active_directory_lab/blob/main/Active_directory_lab/Docs/client/accesso_negato_permessi.png) |
+| _L'utente autorizzato del gruppo Lead accede alla cartella._ | _L'accesso viene bloccato dal sistema per gli utenti non autorizzati._ |
+```
+
